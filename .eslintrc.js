@@ -15,8 +15,4 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     sourceType: 'module',
   },
-  // plugins: ['vue', '@typescript-eslint', 'prettier'],
-  // rules: {
-  //   'prettier/prettier': 'error',
-  // },
 }

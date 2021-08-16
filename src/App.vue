@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="changeName(1)"></button>
+    <button @click="changeName('Obama')">Button</button>
     <div>{{ name }}</div>
   </div>
 </template>
