@@ -6,25 +6,25 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue'
+  import { defineComponent, ref } from 'vue'
 
-export default defineComponent({
-  name: 'App',
-  components: {},
+  export default defineComponent({
+    name: 'App',
+    components: {},
 
-  setup() {
-    const name = ref('Kevin')
+    setup() {
+      const name = ref('Kevin')
 
-    const changeName = (newName: string) => {
-      name.value = newName
-    }
+      const changeName = (newName: string) => {
+        name.value = newName
+      }
 
-    return {
-      changeName,
-      name,
-    }
-  },
-})
+      return {
+        changeName,
+        name,
+      }
+    },
+  })
 </script>
 
 <style></style>
