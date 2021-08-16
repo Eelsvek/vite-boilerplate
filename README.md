@@ -1,3 +1,7 @@
-# Vue 3 + Typescript + Vite + eslint + Prettier
+# Boilerplate for Vue projects
 
-This template should help get you started developing with Vue 3 and Typescript in Vite.
+Features:
+- TypeScript
+- eslint
+- Prettier
+- Tailwind (w/PurgeCSS for Production)
